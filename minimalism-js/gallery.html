@@ -1,0 +1,67 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/css.css" />
+    <link rel="stylesheet" href="./css/hamburger-js.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hamburger-menu">
+      <label class="menu__btn">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="./index.html">Главная</a></li>
+        <li><a class="menu__item" href="./gallery.html">Картины</a></li>
+        <li><a class="menu__item" href="./gallery-item.html">Статья</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <a href="./gallery-item.html" class="gallery__item flex-left">
+          <img src="./img/g-1.png" alt="" />
+          <div class="gallery__name">
+            Буря<br />
+            1868
+          </div>
+        </a>
+        <a href="./gallery-item.html" class="gallery__item">
+          <img src="./img/g-2.png" alt="" />
+          <div class="gallery__name">
+            Закат<br />
+            1866
+          </div>
+        </a>
+        <a href="./gallery-item.html" class="gallery__item flex-right">
+          <img src="./img/g-3.png" alt="" />
+          <div class="gallery__name">
+            Кораблекрушение<br />
+            1884
+          </div>
+        </a>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main">
+          <div class="footer__link">Контакты:</div>
+          <a href="mailto:@sunsamsonchik" class="footer__link"
+            >@sunsamsonchik</a
+          >
+          <a href="tel:" class="footer__link">+375297095164</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/burger.js"></script>
+  </body>
+</html>

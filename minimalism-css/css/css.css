@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Iowan Old Style";
+  src: url(./../font/iowanoldstyle_bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./../img/bg.svg);
+  background-position: center top;
+  background-repeat: repeat-y;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1278px;
+  width: 100%;
+  margin: auto;
+}
+
+.welcome__img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.welcome__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 180px;
+  line-height: 180px;
+  margin-left: -39px;
+}
+/* font-family: "Josefin Sans", sans-serif; */
+
+.welcome__main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.welcome__picture {
+}
+.welcome__link {
+  font-family: "Iowan Old Style";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 104px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.footer__main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+}
+
+.gallery {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.gallery__item {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+.gallery__name {
+}
+
+.flex-left {
+  align-items: flex-start;
+}
+.flex-right {
+  align-items: flex-end;
+}
+
+.item__breadcrumbs {
+  display: block;
+  padding-bottom: 40px;
+  padding-top: 200px;
+}
+.item__img {
+}
+.item__img-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  text-align: right;
+  line-height: 119px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.item__desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: justify;
+  color: #000000;
+}
+.item__p {
+}
